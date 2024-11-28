@@ -22,7 +22,10 @@ The dominant operations of this algorithm are the outer loop and the DFS travers
 
 ## Plagiarism Acknowledgement
 
-This assignment seemed pretty straight forward. The parts I had the most trouble with was implementing the algorithm using DFS and the time analysis. When implementing the algorithm I looked at two repositories to guide me through my implementation. https://github.com/COSC3020/detecting-cycles-KobeLimon21, and https://github.com/COSC3020/detecting-cycles-IshitaPatel18. These were very helpful with the analysis as well. 
+This assignment seemed pretty straight forward. The parts I had the most trouble with were implementing the algorithm using DFS and the time analysis. When implementing the algorithm I looked at two repositories to guide me through my implementation. These helped me understand some of the core concepts like DFS, cycle detection, tracking visited nodes, and parent node handling node handling. From these repositories, I tried to create my own implementation for these concepts.
+For DFS I used an iterative approach instead of a recursive method like in the veiwed repositories. Cycle detection, tracking visited nodes and current path, I knew I would need to do, I used sets for these as I have done before in previous assignments. Parent node handling was a part I had difficulty with as well. I stored it with the current node in the stack instead of passing it as a parameter like in the viewed repositories. These are the main sections I got the most help from using the repositories listed below.
+- https://github.com/COSC3020/detecting-cycles-KobeLimon21
+- https://github.com/COSC3020/detecting-cycles-IshitaPatel18. 
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
